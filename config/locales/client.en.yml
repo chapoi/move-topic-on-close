@@ -3,7 +3,16 @@ en:
     admin:
       site_settings:
         categories:
-          TODO_plugin_name: "Plugin Name"
-  js:
-    discourse_plugin_name:
-      placeholder: placeholder
+          automation_move_topic_on_close: "Automation script: Move topic on close"
+  discourse_automation:
+    scriptables:
+      move_topic_on_close:
+        title: "Move topic on close"
+        description: "Automatically move topics to another category when they are closed."
+        fields:
+          source_category:
+            label: "Source Category"
+            description: "The category from which topics will be moved when closed."
+          target_category:
+            label: "Target Category"
+            description: "The category to which topics will be moved when closed."

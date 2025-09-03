@@ -1,1 +1,6 @@
 en:
+  discourse_automation:
+    scriptables:
+      move_topic_on_close:
+        title: "Move topic on close"
+        description: "Automatically move topics to another category when they are closed."
